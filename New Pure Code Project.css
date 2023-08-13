@@ -6,11 +6,25 @@
         font-size: 40px;
     }
 
-    .menu ul {
+    .navbar-nav {
         display: none;
-        width: 100vh;
     }
 
+    .navbar-js-toggle {
+        font-size: 30px;
+        padding: 10px;
+        list-style: none;
+        width: 200px;
+        color: #333;
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-div-flex {
+        display: flex;
+        flex-direction: column;
+    }
 
     .navbar-icons {
         display: none;
@@ -130,6 +144,23 @@
 @media(min-width:586px) {
     .toggle {
         display: none;
+    }
+
+    .navbar-nav {
+        display: inline;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar-nav li {
+        margin-right: 15px;
+    }
+
+    .navbar-nav a {
+        text-decoration: none;
+        color: #333;
     }
 
     .contact-info-container {
@@ -329,6 +360,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+
+
+
 .custom-navbar {
     background-color: #ffffff;
     color: #333;
@@ -344,22 +379,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.navbar-nav {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.navbar-nav li {
-    margin-right: 15px;
-}
-
-.navbar-nav a {
-    text-decoration: none;
-    color: #333;
 }
 
 
