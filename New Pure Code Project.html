@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pure Code Company Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--top Border-->
+    <div class="top-border-container">
+        <div class="top-border-left">
+            <img src="https://assets.market-storefront.envato-static.com/storefront/assets/logos/envato-market-a5ace93f8482e885ae008eb481b9451d379599dfed24868e52b6b2d66f5cf633.svg" class="top-border-image">
+        </div>
+        <div class="top-border-right">
+            <button class="top-border-button">Buy now</button>
+        </div>
+    </div>
+
+    <!--Nav Bar Section -->
+    <div class="menu">
+        <nav class="custom-navbar">
+            <div class="navbar-brand-container">
+                <div> <a class="navbar-brand" href="#"> <img src="https://ciseco-reactjs.vercel.app/static/media/logo.95d47bbac8db6c1e8f997bbf26ca05cf.svg" class="nav-bar-logo d-flex flex-row justify-content-center "></a>
+                </div>
+                <div><i class="fa-solid fa-bars toggle"></i></div>
+
+            </div>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Wowen</a></li>
+                <li><a href="#">Beauty</a></li>
+                <li><a href="#">Sport</a></li>
+                <li class="dropdown">
+                    <a href="#">Templates &#9662;</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Home Page</a></li>
+                        <li><a href="#">Shop Pages</a></li>
+                        <li><a href="#">Other Pages</a></li>
+                        <li><a href="#">Blog Page</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Explore &#9662;</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Project 1</a></li>
+                        <li><a href="#">Project 2</a></li>
+                        <li><a href="#">Project 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="navbar-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </nav>
+    </div>
+    <div class="check-out-content">
+        <h1 class="Checkout-heading">Checkout</h1>
+        <p>Homepage / Clothing Categories / <a href="#"><span class="checkoutDecoration">Checkout</span></a></p>
+    </div>
+    <div class="middle-content">
+
+        <div class="middle-content-left" id="middleContentLeftPartMainDiv">
+
+            <!--Middle order Part 1 -->
+            <!--contact Info Container-->
+            <div class="contact-info-container">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor" class="bi bi-person-circle Icon" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                    </svg>
+                </div>
+                <div>
+                    <div style="display: flex; flex-direction: row;">
+                        <h1 class="contact-info-heading">CONTACT INFO</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor" class="bi bi-check-lg mark-icon" viewBox="0 0 16 16">
+                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                        </svg>
+                    </div>
+                    <p class="contact-info-number">Enrico Smith +855-666-7744</p>
+                </div>
+                <button class="contact-info-change-Btn">Change</button>
+            </div>
+
+            <!--Shiping Addressr-->
+            <div class="shipping-address-container" id="shippingAdressMainContainer">
+                <div class="shipping-adress" style="display: flex; flex-direction: row;">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor" class="bi bi-arrow-left-right Icon" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z" />
+                        </svg>
+                    </div>
+                    <div class="">
+                        <div style="display: flex; flex-direction: row;">
+                            <h1 class="contact-info-heading">SHIPPING ADDRESS</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor" class="bi bi-check-lg mark-icon" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                            </svg>
+                        </div>
+                        <p class="contact-info-number">St. Paul's Road, Norris, SD 57560, Dakota, USA</p>
+                    </div>
+                    <button class="contact-info-change-Btn">Change</button>
+                </div>
+                <hr style="border-color:#d4d7dd; border-width: 1px;" />
+                <div class="shipping-address-details-container">
+                    <form id="profileForm">
+                        <div class="name-section">
+                            <div>
+                                <label for="name" class="shipping-address-text">First Name</label> <br>
+                                <input type="text" class="shipping-address-input" id="name" placeholder="Cole" />
+                            </div>
+                            <div>
+                                <label for="lastname" class="shipping-address-text">Last Name</label><br>
+                                <input type="text" class="shipping-address-input" id="lastname" placeholder="Enrico" />
+                                <p id="emailErrMsg" class="error-message"></p>
+                            </div>
+                        </div>
+                        <div class="Address-section">
+                            <div style="margin-top:10px;">
+                                <label for="address" class="shipping-address-text">Address</label><br>
+                                <input type="text" class="shipping-address-input address " id="address" placeholder="123, Dream Avenue, USA" />
+                            </div>
+                            <div style="margin-top:10px;">
+                                <label for="suite" class="shipping-address-text">Apt,Suite*</label><br>
+                                <input type="text" class="shipping-address-input apt-suit" id="suite" placeholder="55U - DD5" />
+                                <p id="emailErrMsg" class="error-message"></p>
+                            </div>
+                        </div>
+                        <div class="name-section">
+                            <div style="margin-top:10px;">
+                                <label for="city" class="shipping-address-text">City</label><br>
+                                <input type="text" class="shipping-address-input " id="city" placeholder="Norris" />
+                                <p id="emailErrMsg" class="error-message"></p>
+                            </div>
+                            <div style="margin-top:10px;">
+                                <label for="country" class="shipping-address-text">Country</label><br>
+                                <select class="shipping-address-input" style="height:50px; padding:10px;" aria-label=".form-select-lg example" id="country">
+                                    <option selected>United States</option>
+                                    <option value="1">India</option>
+                                    <option value="2">China</option>
+                                    <option value="3">Japan</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="name-section">
+                            <div style="margin-top:10px;">
+                                <label for="state" class="shipping-address-text">State/Province</label><br>
+                                <input type="text" class="shipping-address-input " id="state" placeholder="Texas" />
+                                <p id="emailErrMsg" class="error-message"></p>
+                            </div>
+                            <div style="margin-top:10px;">
+                                <label for="postalcode" class="shipping-address-text">Postal code</label><br>
+                                <input type="text" class="shipping-address-input " id="postalcode" placeholder="2500" />
+                                <p id="emailErrMsg" class="error-message"></p>
+                            </div>
+                        </div>
+                        <p class="shipping-address-text">Address Type</p>
+                        <div class="name-section" style="margin-top:10px;">
+                            <div>
+                                <input class="shipping-address-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="shipping-address-check-label" for="inlineRadio1"> <span style="font-weight:bold;">Home</span> (All Day Delivery)</label>
+                            </div>
+                            <div>
+                                <input class="shipping-address-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="shipping-address-check-label" for="inlineRadio2"><span style="font-weight:bold;">Office</span> (Delivery <span style="font-weight:bold;">9 AM - 5 PM</span>)</label>
+                            </div>
+                        </div>
+                        <div class="shipping-address-details-container-button-section">
+                            <button class="save-to-payment-btn">Save and next to Payment</button>
+                            <button class="save-to-payment-cancel-btn" id="shippingAdressMainContainerCancelBtn">Cancle</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!--Payment Confirmation-->
+            <div class="contact-info-container">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-credit-card-2-front Icon" viewBox="0 0 16 16">
+                        <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z" />
+                        <path d="M2 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </div>
+                <div>
+                    <div style="display: flex; flex-direction: row;">
+                        <h1 class="contact-info-heading">PAYMENT METHOD</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor" class="bi bi-check-lg mark-icon" viewBox="0 0 16 16">
+                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                        </svg>
+                    </div>
+                    <p class="contact-info-number">Google / Apple Walletxxx-xxx-xx55</p>
+                </div>
+                <button class="contact-info-change-Btn">Change</button>
+            </div>
+        </div>
+
+        <div class="middle-content-right">
+            <!--Middle order Part 2 -->
+            <!--Order Summery-->
+            <div>
+                <p class="cart-heading">Order summary</p>
+                <div id="cartItemMainDiv">
+                    <div class="cart-item-details" id="cartItemOne">
+                        <img src="https://chisnghiax.com/ciseco/static/media/17.7701cf9446a6b588de67.png" class="cart-item-image">
+                        <div class="cart-item">
+                            <h1 class="cart-item-heading">Rey Nylon Backpack</h1>
+                            <p class="cart-item-para">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                                        <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a2.972 2.972 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1.01 1.01 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4.322 4.322 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067-.707-.707-1.441-1.279-2.068-1.627-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219l-.217.216zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.283 3.283 0 0 1-.131-.673c.091.061.204.15.337.274zm.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088c.054.12.115.243.183.365.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626.122.068.244.13.365.183l-4.861 4.862a.571.571 0 0 1-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46-.66-.66-1.168-1.32-1.46-1.846-.147-.265-.225-.47-.251-.607a.573.573 0 0 1-.01-.068l3.048-3.047zm2.87-1.935a2.44 2.44 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.497 3.497 0 0 0-1.066.091 11.27 11.27 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z" />
+                                    </svg>
+                                </span> Black <span style="color:#e6e8ea; font-size:30px;">|</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z" />
+                                    </svg>
+                                </span> 2XL
+                            </p>
+                            <div>
+                                <button class="cart-item-add-remove-btns" id="decreaseBtn">-</button>
+                                <span id="valueChange">1</span>
+                                <button class="cart-item-add-remove-btns" id="increaseBtn">+</button>
+                            </div>
+                        </div>
+                        <div class="cart-price-remove-container">
+                            <p class="cart-item-price">$ <span id="priceChange">74</span>.00</p>
+                            <div>
+                                <button class="cart-item-remove-button" id="cartItemRemoveOne">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="border-color:#d4d7dd; border-width: 1px;" />
+                    <div class="cart-item-details" id="cartItemTwo">
+                        <img src="https://chisnghiax.com/ciseco/static/media/16.5ed8bd8a65af67fd6c5c.png" class="cart-item-image">
+                        <div class="cart-item mr-5">
+                            <h1 class="cart-item-heading">Waffle Knit Beanie</h1>
+                            <p class="cart-item-para">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                                        <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a2.972 2.972 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1.01 1.01 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4.322 4.322 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067-.707-.707-1.441-1.279-2.068-1.627-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219l-.217.216zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.283 3.283 0 0 1-.131-.673c.091.061.204.15.337.274zm.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088c.054.12.115.243.183.365.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626.122.068.244.13.365.183l-4.861 4.862a.571.571 0 0 1-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46-.66-.66-1.168-1.32-1.46-1.846-.147-.265-.225-.47-.251-.607a.573.573 0 0 1-.01-.068l3.048-3.047zm2.87-1.935a2.44 2.44 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.497 3.497 0 0 0-1.066.091 11.27 11.27 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z" />
+                                    </svg>
+                                </span> Black <span style="color:#e6e8ea;">|</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z" />
+                                    </svg>
+                                </span> 2XL
+                            </p>
+                            <div>
+                                <button class="cart-item-add-remove-btns" id="decreaseBtn2">-</button>
+                                <span id="valueChange2">1</span>
+                                <button class="cart-item-add-remove-btns" id=increaseBtn2>+</button>
+                            </div>
+                        </div>
+                        <div class="cart-price-remove-container mt-4">
+                            <div>
+                                <p class="cart-item-price">$ <span id="priceChange2">132</span>.00</p>
+                            </div>
+                            <div>
+                                <button class="cart-item-remove-button" id="cartItemRemoveTwo">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="border-color:#d4d7dd; border-width: 1px;" />
+                    <div class="cart-item-details" id="cartItemThree">
+                        <img src="https://chisnghiax.com/ciseco/static/media/4.7342ded3cf1426f3ce5e.png" class="cart-item-image">
+                        <div class="cart-item mr-5">
+                            <h1 class="cart-item-heading">Travel Pet Carrier</h1>
+                            <p class="cart-item-para">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                                        <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a2.972 2.972 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1.01 1.01 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4.322 4.322 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067-.707-.707-1.441-1.279-2.068-1.627-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219l-.217.216zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.283 3.283 0 0 1-.131-.673c.091.061.204.15.337.274zm.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088c.054.12.115.243.183.365.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626.122.068.244.13.365.183l-4.861 4.862a.571.571 0 0 1-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46-.66-.66-1.168-1.32-1.46-1.846-.147-.265-.225-.47-.251-.607a.573.573 0 0 1-.01-.068l3.048-3.047zm2.87-1.935a2.44 2.44 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.497 3.497 0 0 0-1.066.091 11.27 11.27 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z" />
+                                    </svg>
+                                </span> Black <span style="color:#e6e8ea;">|</span>
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z" />
+                                    </svg>
+                                </span> 2XL
+                            </p>
+                            <div>
+                                <button class="cart-item-add-remove-btns" id=decreaseBtn3>-</button>
+                                <span id="valueChange3">1</span>
+                                <button class="cart-item-add-remove-btns" id=increaseBtn3>+</button>
+                            </div>
+
+                        </div>
+                        <div class="cart-price-remove-container">
+                            <div>
+                                <p class="cart-item-price">$ <span id="priceChange3">74</span>.00</p>
+                            </div>
+                            <div>
+                                <button class="cart-item-remove-button" id="cartItemRemoveThree">Remove</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <hr style="border-color:#333; border-width: 1px;" />
+            </div>
+            <!--Discount Coupon-->
+            <div class="discount-container">
+                <div>
+                    <h4 class="discount-heading"> Dicount code </h4>
+                    <div class="discount-input">
+                        <input class="input">
+                        <button class="apply-btn">Apply</button>
+                    </div>
+                </div>
+                <div class="discount-price-details">
+                    <div class="text-color">
+                        <p>Subtotal</p>
+                        <p>Shipping estimate </p>
+                        <p>Tax estimate</p>
+                        <p style="font-weight:bold;">Order total</p>
+                    </div>
+                    <div class="price-color">
+                        <p>$<span id="subTotal">249</span>.00</p>
+                        <p>$<span id="shippingEstimate">5</span>.00</p>
+                        <p>$<span id="taxEstimate">24</span>.00</p>
+                        <p>$<span id="orderTotal">276</span>.00</p>
+                    </div>
+                </div>
+                <div class="discount-confirm-section">
+                    <button class="confirm-button">Confirm order</button> <br />
+                    <div class="discount-confirm-info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" style="margin-top:2.5px; margin-right:5px;" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                        </svg>
+                        <p class="">Learn more <a href="#" class="taxkes-shipping ">Taxes</a> and <a href="#" class="taxkes-shipping">Shipping</a> information </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="bottom-section">
+        <div class="profile-main-container">
+            <div>
+                <img src="https://ciseco-reactjs.vercel.app/static/media/logo.95d47bbac8db6c1e8f997bbf26ca05cf.svg" class="ciseco-image" />
+            </div>
+            <div class="profile-container-part">
+                <div class="profile-container">
+                    <img src="https://ciseco-reactjs.vercel.app/static/media/facebook.8291c7f7c187e8f09292cced2ed0278d.svg " class="profile-image">
+                    <p>Facebook</p>
+                </div>
+                <div class="profile-container">
+                    <img src="https://ciseco-reactjs.vercel.app/static/media/youtube.bb2387598b5621f3a2e92ab928da4fe0.svg" class="profile-image">
+                    <p class="paragraph">Youtube</p>
+                </div>
+                <div class="profile-container">
+                    <img src="https://ciseco-reactjs.vercel.app/static/media/telegram.5acad1587076bc12320cadff0f4aa3f3.svg" class="profile-image">
+                    <p class="paragraph">Telegram</p>
+                </div>
+                <div class="profile-container">
+                    <img src="https://ciseco-reactjs.vercel.app/static/media/twitter.f56ce1bc9eb5120250ac80ed561cf82f.svg" class="profile-image">
+                    <p class="paragraph">Twitter</p>
+                </div>
+                <!-- Profile PART like social media logos-->
+            </div>
+        </div>
+        <div class="profile-main-container-2">
+            <div class="getstarted-section">
+                <h1>Getting started</h1>
+                <p>Release Notes</p>
+                <p>Upgrade Guide</p>
+                <p>Browser Support</p>
+                <p>Dark Mode</p>
+            </div>
+            <div class="getstarted-section">
+                <h1>Explore</h1>
+                <p>Prototyping</p>
+                <p>Design Systems</p>
+                <p>Pricing</p>
+                <p>Security</p>
+            </div>
+        </div>
+        <div class="profile-main-container-3">
+            <div class="getstarted-section">
+                <h1>Resources</h1>
+                <p>Best Practices</p>
+                <p>Support</p>
+                <p>Developerrs</p>
+                <p>Learn design</p>
+            </div>
+            <div class="getstarted-section">
+                <h1>Community</h1>
+                <p>Discussion Forums</p>
+                <p>Code of Conduct</p>
+                <p>Contributing</p>
+                <p>API Reference</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
