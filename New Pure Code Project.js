@@ -1,3 +1,13 @@
+let toggle = document.getElementById("toggleBtn");
+let navBarContent = document.getElementById("navBarContent");
+let mainDivForNavBar = document.getElementById("mainDivForNavBar");
+toggle.onclick = function() {
+    navBarContent.classList.toggle("navbar-nav")
+    navBarContent.classList.add("navbar-js-toggle")
+    mainDivForNavBar.classList.add("main-div-flex")
+}
+
+
 let decreaseBtn = document.getElementById("decreaseBtn");
 let increaseBtn = document.getElementById("increaseBtn");
 let valueChange = document.getElementById("valueChange");
