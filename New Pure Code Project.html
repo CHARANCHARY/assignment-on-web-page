@@ -22,20 +22,19 @@
 
     <!--Nav Bar Section -->
     <div class="menu">
-        <nav class="custom-navbar">
+        <nav class="custom-navbar" id="mainDivForNavBar">
             <div class="navbar-brand-container">
                 <div> <a class="navbar-brand" href="#"> <img src="https://ciseco-reactjs.vercel.app/static/media/logo.95d47bbac8db6c1e8f997bbf26ca05cf.svg" class="nav-bar-logo d-flex flex-row justify-content-center "></a>
                 </div>
-                <div><i class="fa-solid fa-bars toggle"></i></div>
-
+                <div><i class="fa-solid fa-bars toggle" type="button" id="toggleBtn"></i></div>
             </div>
-            <ul class="navbar-nav">
+            <ul class="navbar-nav navbar-js-toggle" id="navBarContent">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Wowen</a></li>
                 <li><a href="#">Beauty</a></li>
                 <li><a href="#">Sport</a></li>
                 <li class="dropdown">
-                    <a href="#">Templates &#9662;</a>
+                    <a href="#">Templates</a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Home Page</a></li>
                         <li><a href="#">Shop Pages</a></li>
@@ -44,7 +43,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#">Explore &#9662;</a>
+                    <a href="#">Explore</a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Project 1</a></li>
                         <li><a href="#">Project 2</a></li>
